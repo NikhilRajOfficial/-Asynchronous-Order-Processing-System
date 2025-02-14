@@ -78,7 +78,6 @@ mvn spring-boot:run
 
 ## 🖼 Screenshots
 - **Eureka Server UI:** ![Eureka Server](image_url_here)
-- **Database Schema (MySQL):** ![Database Schema](image_url_here)
 - **Postman API Request & Response:** ![Postman API](image_url_here)
 
 _(Replace `image_url_here` with actual image URLs when uploading to GitHub)_
