@@ -1,0 +1,26 @@
+resilience4j.circuitbreaker:
+  instances:
+    orderServiceCircuitBreaker:
+      registerHealthIndicator: true
+      failureRateThreshold: 50
+      minimumNumberOfCalls: 10
+      automaticTransitionFromOpenToHalfOpenEnabled: true
+      waitDurationInOpenState: 5s
+      permittedNumberOfCallsInHalfOpenState: 3
+      eventConsumerBufferSize: 10
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ # URL of your Eureka server
+  instance:
+    preferIpAddress: true # Register with IP address instead of hostname (optional)
+    hostname: localhost # Or the actual hostname if not running locally
+
+spring:
+  application:
+    name: ORDER-SERVICE # The name of your service (important for Eureka)
+
+
+
