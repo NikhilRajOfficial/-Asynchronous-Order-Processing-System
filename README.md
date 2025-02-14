@@ -78,7 +78,7 @@ mvn spring-boot:run
 
 ## 🖼 Screenshots
 - **Eureka Server UI:** ![Eureka Server]([image_url_here](https://github.com/NikhilRajOfficial/-Asynchronous-Order-Processing-System/blob/f296b1e02046990193b596236b610cc8b07cfb31/Screenshot%202025-02-14%20183643.png))
-- **Postman API Request & Response:** ![Postman API](image_url_here)
+- **Postman API Request & Response:** ![Postman API]([image_url_here](https://github.com/NikhilRajOfficial/-Asynchronous-Order-Processing-System/blob/b1c3b378bd086f4b2159068e026e2faf22d68899/Screenshot%202025-02-15%20000402.png))
 
 _(Replace `image_url_here` with actual image URLs when uploading to GitHub)_
 
