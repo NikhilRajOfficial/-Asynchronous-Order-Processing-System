@@ -1,8 +1,5 @@
 # -Asynchronous-Order-Processing-System
 
-
-# Asynchronous Order Processing System
-
 ## 📌 Description
 Developed a highly scalable and resilient asynchronous order processing system using Spring Boot and message queues. The system efficiently handles order placement, payment processing, inventory updates, and notifications asynchronously using Kafka , reducing user wait time and improving system performance.
 
