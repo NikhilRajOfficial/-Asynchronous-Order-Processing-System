@@ -6,7 +6,6 @@
 - 🏛️ Architecture
 - 🚀 Microservices
 - 🚀 Getting Started
-- 📖 Documentation
 - 🔐 Security
 - ⌚ Future Enhancements
 - 🤝 Contribution
@@ -120,13 +119,6 @@ Each microservice is developed independently with its own **database, REST API, 
 
 ---
 
-## 📖 Documentation
-- **Microservice-specific Documentation:**
-  - [Order Service README](./order-service/README.md)
-  - [Inventory Service README](./inventory-service/README.md)
-  - [Payment Service README](./payment-service/README.md)
-  - [Notification Service README](./notification-service/README.md)
-  - [User Auth Service README](./user-auth-service/README.md)
   
 - **API Documentation:**
   - [Swagger API Docs](http://localhost:8080/swagger-ui.html)
@@ -136,7 +128,6 @@ Each microservice is developed independently with its own **database, REST API, 
 ## 🔐 Security
 - **Authentication:** JWT-based authentication for all services.
 - **Authorization:** Role-based access control (Admin, User).
-- **Data Encryption:** AES encryption for sensitive data.
 - **Circuit Breaker:** Resilience4j to prevent cascading failures.
 
 ---
